@@ -2,7 +2,10 @@ package com.goit.dabase;
 
 import com.mysql.cj.jdbc.Driver;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Objects;
 import java.util.function.Function;
 
