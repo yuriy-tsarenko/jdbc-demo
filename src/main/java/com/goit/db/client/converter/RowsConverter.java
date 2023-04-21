@@ -1,4 +1,4 @@
-package com.goit.converter;
+package com.goit.db.client.converter;
 
 import java.util.List;
 import java.util.Map;
