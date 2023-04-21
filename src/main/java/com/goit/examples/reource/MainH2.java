@@ -9,6 +9,6 @@ public class MainH2 {
         Reader reader = new Reader("db/db-structure/init-db.sql");
         Database database = Database.getInstance();
         DbInitializer dbInitializer = new DbInitializer(database, reader);
-        dbInitializer.init();
+        dbInitializer.init("user_manager_db");
     }
 }
